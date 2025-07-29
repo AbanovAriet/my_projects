@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+    background-color: antiquewhite;
+}
+.about-me h2 {
+    text-align: center;
+}
+.about-me {
+    margin-left: 100px;
+    padding-top: 10px; 
+    border: 2px solid rgb(19, 229, 201);
+    max-width: 200px;
+    max-height: 400px;
+    padding: 20px;
+    transition: all 0.3s ease;
+    background-color: rgb(95, 205, 205);
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(100, 253, 233, 0.1);
+}
+.about-me:hover {
+    box-shadow: 0 8px 20px rgba(135, 57, 203, 0.969);
+    transform: scale(1.03);
+    background-color: rgb(22, 219, 65);
+}
+h1 {
+    margin-left: 520px;
+}
+ img {
+    max-width: 400px;
+    max-height: 300px;
+    margin-left: 420px;
+    margin-top: -420px;
+    border-radius: 100%;
+}
+  
+.plans {
+  display: block;
+  margin-left: auto;
+  margin-right: 10px;
+  margin-top: -300px;
+
+  padding-top: 10px; 
+  border: 2px solid rgb(19, 229, 201);
+  max-width: 400px;
+  max-height: 400px;
+  padding: 20px;
+  transition: all 0.3s ease;
+  background-color: rgb(95, 205, 205);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(100, 253, 233, 0.1);
+}
+.plans:hover {
+    box-shadow: 0 8px 20px rgba(135, 57, 203, 0.969);
+    transform: scale(1.03);
+    background-color: rgb(22, 219, 65);
+} 
+
+.menu {
+  background-color: rgb(11, 109, 96);
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  margin-top: 481px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu ul li {
+  margin: 0 20px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: rgb(14, 1, 1);
+  font-weight: 600;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.menu ul li a:hover {
+  color: rgb(50, 216, 86);
+}
+
+
