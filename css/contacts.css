@@ -1,0 +1,47 @@
+/* Заголовок по центру */
+h1 {
+  text-align: center;
+  color: #333; /* темный цвет для хорошей читабельности */
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 2.5em;
+}
+
+/* Основные стили для страницы */
+body {
+  background-color: #f0f8ff; /* мягкий голубой фон */
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  color: #444; /* темно-серый цвет текста */
+}
+
+/* Стили для списка */
+ul {
+  list-style-type: disc; /* точки перед элементами */
+  padding-left: 40px; /* отступ слева для маркеров */
+  max-width: 600px; /* ограничиваем ширину списка */
+  margin: 0 auto 30px auto; /* центрируем список и отступ снизу */
+}
+
+/* Стили для элементов списка */
+li {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+.button-to-back {
+  background-color: rgb(117, 226, 236);
+  height: 70px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-to-back:hover {
+  box-shadow: #15636d;
+  transform: scale(1.03);
+  background-color: #18c0d6;
+}
+

@@ -1,0 +1,114 @@
+body {
+  background-color: #f0f8ff;
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.for-knowledge {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.knowledge {
+  width: 250px;             
+  background-color: #ffffff;
+  border: 2px solid #00bcd4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.knowledge:hover {
+    box-shadow: 0 8px 20px rgb(14, 86, 91);
+    transform: scale(1.20);
+    background-color: #78e4f0;
+}
+
+.knowledge img {
+  width: 100%;              
+  height: 180px;            
+  object-fit: cover;       
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+
+.knowledge figcaption {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #444;
+  min-height: 40px;        
+}
+
+
+.button-to-sport {
+  margin-left: 1000px;
+  background-color: rgb(117, 226, 236);
+  height: 70px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-to-sport:hover {
+  box-shadow: #15636d;
+  transform: scale(1.03);
+  background-color: #18c0d6;
+}
+
+
+.card-toggle {
+  display: none;
+}
+
+
+.card-toggle:checked + .knowledge img {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: auto;
+  height: 90vh; 
+  object-fit: contain;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+  cursor: zoom-out;
+  transition: all 0.3s ease;
+}
+
+.button-to-back {
+  margin-right: 1000px;
+  background-color: rgb(117, 226, 236);
+  height: 70px;
+  width: 100px;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.button-to-back:hover {
+  box-shadow: #15636d;
+  transform: scale(1.03);
+  background-color: #18c0d6;
+}
+
+
